@@ -166,6 +166,13 @@ legend {
 
 textarea {
   overflow: auto; }
+.footer-social { 
+    display: block;
+    text-align: center;
+    background-color: red;
+    height: 35vh;
+
+}
 
 optgroup {
   font-weight: bold; }
