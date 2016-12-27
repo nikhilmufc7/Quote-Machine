@@ -1,0 +1,162 @@
+<html>
+<head>
+	<title>Quote Machine</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src= "script.js"></script>
+
+
+</head>
+<body style="background-color: #558C89">
+
+   
+	<div class="home">
+		
+		<div class="container">
+			<h1 class="headline">Random Quote Machine</h1>
+			<p class="intro">This is a random quote generator built with JavaScript. Just click on each section to view quotes on your favourite topic.</p>
+		
+		</div>
+
+		<!-- Columns -->
+
+		<div class="container" id="quotes-container">
+			<div class="row" id="row-1">
+				<div class="three columns grid-cell">
+					<div class="featured-image featured-image-books"></div>
+
+					<div class="title" id="home-books">
+						<h4><span>Book Quotes</span></h4>
+					</div>
+				</div>
+				<div class="three columns grid-cell">
+					<div class="featured-image featured-image-relationships"></div>
+
+					<div class="title" id="home-relationships">
+						<h4><span>Relationship Quotes</span></h4>
+					</div>
+				</div>
+				<div class="three columns grid-cell">
+					<div class="featured-image featured-image-sports"></div>
+
+					<div class="title" id="home-sports">
+						<h4><span>Sports Quotes</span></h4>
+					</div>
+				</div>
+				<div class="three columns grid-cell">
+					<div class="featured-image featured-image-life"></div>
+
+					<div class="title" id="home-life">
+						<h4><span>Life Quotes</span></h4>
+					</div>
+				</div>
+			</div>
+
+			<div class="row" id="row-2">
+				<div class="three columns grid-cell">
+					<div class="featured-image featured-image-movies"></div>
+
+					<div class="title" id="home-movies">
+						<h4><span>Movie Quotes</span></h4>
+					</div>
+				</div>
+				<div class="three columns grid-cell">
+					<div class="featured-image featured-image-startups"></div>
+
+					<div class="title" id="home-startups">
+						<h4><span>Startup Quotes</span></h4>
+					</div>
+				</div>
+				<div class="three columns grid-cell">
+					<div class="featured-image featured-image-african"></div>
+
+					<div class="title" id="home-african">
+						<h4><span>African Quotes</span></h4>
+					</div>
+				</div>
+				<div class="three columns grid-cell">
+					<div class="featured-image featured-image-christianity"></div>
+
+					<div class="title" id="home-christianity">
+						<h4><span>Christianity Quotes</span></h4>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<footer>
+			<div class="container" id="copyright-info">
+				<p>Copyright © Nikhil Singh.</p>
+			</div>
+		</footer>		
+		
+	</div> <!-- HomePage -->
+	
+	<div class="app">
+
+		<div class="hidden" id="page">
+			
+			<!-- Navigation  -->
+		
+			<section class="navigation">
+				<div class="container">
+					<div class="ten columns offset-by-one">
+						<nav class="nav-bar">
+							<ul class="nav-bar-menu">
+								<li class="nav-bar-btn" id="nav-bar-home"><span class="nav-bar-btn-span" id="nav-bar-btn-home">Home</span></li>
+								<li class="nav-bar-btn" id="nav-bar-books"><span class="nav-bar-btn-span" id="nav-bar-btn-books">Books</span></li>
+								<li class="nav-bar-btn" id="nav-bar-startups"><span class="nav-bar-btn-span" id="nav-bar-btn-startups">Startups</span></li>
+								<li class="nav-bar-btn" id="nav-bar-relationships"><span class="nav-bar-btn-span" id="nav-bar-btn-relationships">Relationships</span></li>
+								<li class="nav-bar-btn" id="nav-bar-sports"><span class="nav-bar-btn-span" id="nav-bar-btn-sports">Sports</span></li>
+								<li class="nav-bar-btn" id="nav-bar-movies"><span class="nav-bar-btn-span" id="nav-bar-btn-movies">Movies</span></li>
+								<li class="nav-bar-btn" id="nav-bar-african"><span class="nav-bar-btn-span" id="nav-bar-btn-african">African</span></li>
+								<li class="nav-bar-btn" id="nav-bar-life"><span class="nav-bar-btn-span" id="nav-bar-btn-life">Life</span></li>
+								<li class="nav-bar-btn" id="nav-bar-christianity"><span class="nav-bar-btn-span" id="nav-bar-btn-christianity">Christianity</span></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</section>
+
+			<!-- End of Navigation -->
+			
+			<!-- Quotes -->
+
+			<section class="main">
+
+				<div class="container">
+					<div class="ten columns offset-by-one">
+						<div class="quotesBox" id="quotesBox">
+							<blockquote>
+								<span class="quote"></span>
+								<span class="author"></span>
+							</blockquote>
+						</div>
+					</div>
+				</div>
+				
+				<!-- End of Quotes -->
+
+				<!-- Buttons -->
+
+				<div class="container">
+					<div class="eight columns offset-by-two">
+						<div class="cta" id="cta">
+							<button class="btn btn-quote" id="previous-quote">Previous Quote</button>
+							<button class="btn btn-quote" id="next-quote">Next Quote</button>
+							<a class="button btn btn-tweet">Tweet!</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+		</div>
+	</div>
