@@ -710,42 +710,42 @@ h4:hover {
   height: 100px; }
 
 .featured-image-books {
-  background: url("../books.jpg") top center no-repeat;
+  background: url("books.jpg") top center no-repeat;
   background-size: 110%;
   transition: background 800ms ease-in-out; }
 
 .featured-image-relationships {
-  background: url("../relationship.jpg") top center no-repeat;
+  background: url("relationship.jpg") top center no-repeat;
   background-size: 110%;
   transition: background 800ms ease-in-out; }
 
 .featured-image-sports {
-  background: url("../sports.jpg") top center no-repeat;
+  background: url("sports.jpg") top center no-repeat;
   background-size: 110%;
   transition: background 800ms ease-in-out; }
 
 .featured-image-life {
-  background: url("../life.jpg") top center no-repeat;
+  background: url("life.jpg") top center no-repeat;
   background-size: 110%;
   transition: background 800ms ease-in-out; }
 
 .featured-image-movies {
-  background: url("../movies.jpg") top center no-repeat;
+  background: url("movies.jpg") top center no-repeat;
   background-size: 110%;
   transition: background 800ms ease-in-out; }
 
 .featured-image-startups {
-  background: url("../startup.jpg") top center no-repeat;
+  background: url("startup.jpg") top center no-repeat;
   background-size: 110%;
   transition: background 800ms ease-in-out; }
 
 .featured-image-african {
-  background: url("../african.jpg") top center no-repeat;
+  background: url("african.jpg") top center no-repeat;
   background-size: 110%;
   transition: background 800ms ease-in-out; }
 
 .featured-image-christianity {
-  background: url("../christianity.jpg") top center no-repeat;
+  background: url("christianity.jpg") top center no-repeat;
   background-size: 110%;
   transition: background 800ms ease-in-out; }
 
