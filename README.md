@@ -1,3 +1,12 @@
-A quote machine which gives various quotes to the users ranging from sports to startups. Built using HTML, CSS, Javascript,JQuery framework,Bootstrap framework,
+# Quote Machine
 
-It can be viewed at https://nikhilmufc7.github.io/Quote-Machine/
+Generate quotes for Books, Relationships, Sports, Life, Movies, Startups, African and Christianity.
+
+### Built using:
+* HTML
+* CSS
+* JavaScript
+* [jQuery](https://jquery.com/)
+* [Bootstrap](http://getbootstrap.com/)
+
+Live WebApp: https://nikhilmufc7.github.io/Quote-Machine/
